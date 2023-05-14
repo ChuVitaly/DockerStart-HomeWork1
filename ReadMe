@@ -1,0 +1,2 @@
+1. Сборка:  docker build -t my-nginx-image .
+2. Запуск:  docker run -d --name my-nginx-container -p 7777:80 my-nginx-image
